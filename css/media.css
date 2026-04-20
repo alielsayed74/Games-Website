@@ -1,0 +1,125 @@
+@media screen and (max-width:991px){
+    /* navbar sectoin */
+    .navbar .collapse ul{
+        border-top: 1px solid oklch(0.28 0.03 257.69);
+    }
+    .navbar .collapse ul li a{
+        width: fit-content;
+    }
+    .navbar .list-unstyled li i{
+        font-size: 16px;
+    }
+    /* header sectoin */
+    .header{
+        padding-inline: 10px !important;
+    }
+    .header .text-center h1{
+        font-size: 48px !important;
+    }
+    .header .text-center p{
+        font-size: 12px !important;
+    }
+    /* contact-us sectoin */
+    .contact-us .container-fluid .outter-form{
+        margin-top: 40px;
+    }
+    .contact-us p.text-center{
+        font-size: 14px !important;
+    }
+    .contact-us h2.text-center{
+        font-size: 42px !important;
+    }
+    .contact-us h3.text-center{
+        font-size: 18px !important;
+    }
+}
+@media screen and (min-width:992px){
+    /* navbar sectoin hidding an element of list from sm and larger */
+    #tour{
+        display: none;
+    }
+}
+@media screen and (max-width:640px){
+    /* header sectoin */
+    .header .sec2 .image{
+        height: 250px !important;
+    }
+    .header .text-center h1{
+        font-size: 32px !important;
+    }
+    .header .text-center p{
+        font-size: 12px !important;
+    }
+    /* our games section */
+    #carouselExample .carousel-inner .third, #carouselExample .carousel-inner .second{
+        display: none;
+    }
+    .carousel-control-prev{
+        left: 25% !important;
+        top: 95% !important;
+    }
+    .carousel-control-next{
+        right: 25% !important;
+        top: 95% !important;
+    }
+    .our-games button.btn{
+        margin-inline: 0% !important;
+        width: 80%;
+        margin-left: 10% !important;
+        font-size: 12px !important;
+    }
+    .our-games p.text-center, .we-do p.text-center, .our-team p.text-center{
+        font-size: 12px !important;
+    }
+    .our-games h2.text-center, .we-do h2.text-center{
+        font-size: 26px !important;
+    }
+    .our-team h2.text-center{
+        font-size: 42px !important;
+    }
+    .our-team h3.text-center{
+        font-size: 18px !important;
+    }
+    /* we-do sectoin */
+    .we-do h3.text-center{
+        font-size: 21px !important;
+    }
+}
+@media screen and (min-width:641px) and (max-width:768px){
+    /* header sectoin */
+    .header .sec2 .image{
+        height: 350px !important;
+    }
+    /* our games section */
+    #carouselExample .carousel-inner .third, #carouselExample .carousel-inner .second{
+        display: none;
+    }
+    .carousel-control-prev{
+        left: 29% !important;
+    }
+    .our-games p.text-center{
+        font-size: 13px !important;
+    }
+    .our-games h2.text-center{
+        font-size: 34px !important;
+    }
+    /* we-do sectoin */
+    .we-do p.text-center{
+        font-size: 16px !important;
+    }
+    .we-do h2.text-center{
+        font-size: 36px !important;
+    }
+    .we-do h3.text-center{
+    font-size: 36px !important;        
+    }
+}
+@media screen and (min-width:769px) and (max-width:1024px){
+    /* our games section */
+    #carouselExample .carousel-inner .third{
+        display: none;
+    }
+    .carousel-control-prev{
+        left: 32% !important;
+    }
+}
