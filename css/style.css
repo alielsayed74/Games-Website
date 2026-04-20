@@ -1,13 +1,15 @@
 html{
     scroll-behavior: smooth;
     scroll-padding-top: 87px;
+    box-sizing: border-box;
 }
 /* navbar section */
 body{
     font-family: Chakra Petch, sans-serif;
     /* background-color: blue; */
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     background-color: oklch(0.16 0.01 260.65);
+    
 }
 body::selection{
     color: black;
