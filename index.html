@@ -23,9 +23,9 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
-<body>
+<body data-bs-spy="scroll" data-bs-target="#navbar-example2">
     <!-- navbar sectoin -->
-    <nav class="navbar navbar-expand-lg p-2 p-lg-0 position-fixed top-0 start-0 end-0">
+    <nav id="navbar-example2" class="navbar navbar-expand-lg p-2 p-lg-0 position-fixed top-0 start-0 end-0">
         <div class="container-fluid mx-sm-3 mx-lg-5">
             <span class="navbar-brand fs-5 fw-bold"><i class="fa-solid fa-gamepad" style="color: #cbfe1c;"></i>
                 GameArena</span>
@@ -561,21 +561,21 @@
                             <form class="row g-3">
                                 <div class="col-md-6 mb-2">
                                     <label for="first-name" class="form-label">First Name</label>
-                                    <input type="text" class="form-control" id="first-name"
+                                    <input type="text" name="first-name" class="form-control" id="first-name"
                                         placeholder="Your first name">
                                 </div>
                                 <div class="col-md-6">
                                     <label for="last-name" class="form-label">Last Name</label>
-                                    <input type="text" class="form-control" id="last-name" placeholder="Your last name">
+                                    <input type="text" class="form-control" name="last-name" id="last-name" placeholder="Your last name">
                                 </div>
                                 <div class="col-12 mb-2">
                                     <label for="email" class="form-label">Email Addess</label>
-                                    <input type="text" class="form-control" id="email"
+                                    <input type="text" name="email" class="form-control" id="email"
                                         placeholder="your.email@example.com">
                                 </div>
                                 <div class="col-md-12 mb-2">
                                     <label for="subject" class="form-label">Subject</label>
-                                    <select id="subject" class="form-select">
+                                    <select id="subject" name="subject" class="form-select">
                                         <option selected>General Inquiry</option>
                                         <option>Tournament Support</option>
                                         <option>Technical Issue</option>
@@ -584,14 +584,14 @@
                                     </select>
                                 </div>
                                 <div class="col-12 mb-2">
-                                    <label for="textarea" class="form-label">Message</label>
-                                    <textarea class="form-control" id="textarea" rows="5"
+                                    <label for="tarea" class="form-label">Message</label>
+                                    <textarea class="form-control" name="tarea" id="tarea" rows="5"
                                     placeholder="Tell us how we can help you..." style="resize: none;"></textarea>
                                 </div>
                                 <div class="col-12">
                                     <div class="form-check">
                                         <input id="check" class="form-check-input rounded-0" type="checkbox" id="gridCheck">
-                                        <label class="form-check-label" for="gridCheck">
+                                        <label class="form-check-label" for="check">
                                             Subscribe to our newsletter for gaming updates
                                         </label>
                                     </div>
